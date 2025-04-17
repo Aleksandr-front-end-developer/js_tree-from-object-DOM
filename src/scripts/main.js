@@ -35,6 +35,7 @@ function createTree(element, data) {
 
     createTree(li, data[key]);
   }
+
   element.appendChild(ul);
 }
 
